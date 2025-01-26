@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Login 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/login_style.css">
+
+	</head>
+	<body class="img js-fullheight shadow" style="background-image: url(assets/img/bg.jpg);">
+		<section class="ftco-section full-height">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-6 text-center mb-5">
+						<img src="assets/img/logo-mono.png " alt="logo_monocromatico_unimag" class="logo-img">
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+						<h3 class="mb-4 text-center">Registro de usuario</h3>
+						<form class="form-signin" method="post" action="../controlador/action/act_registrarUsuario.php">
+							<div class="form-group">
+								<input name="nombre" type="text" id="nombre" class="form-control" placeholder="Nombres" required>
+							</div>
+							<div class="form-group">
+								<input name="apellido" type="text" id="apellido" class="form-control" placeholder="Apellido" required>
+							</div>
+							<div class="form-group">
+								<input name="correo" type="text" id="correo" class="form-control" placeholder="Correo" required>
+							</div>
+							
+							<div class="form-group">
+							<input name="password" type="password" id="password"  class="form-control" placeholder="Contraseña" required>
+							<span toggle="#password" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+							</div>
+							
+							<div class="form-group d-flex justify-content-center align-items-center">
+								<button type="submit" class=" btn btn-primary submit px-3 btn-lg btn-borde">Registrarse</button>
+							</div>
+						</form>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		
+		</body>
+</html>
+

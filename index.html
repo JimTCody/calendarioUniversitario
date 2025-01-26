@@ -1,33 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALENDARIO UNIVERSITARIO</title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <link rel="icon" href="assets/img/ico.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CALENDARIO UNIVERSITARIO</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/index_style.css" rel="stylesheet">
 </head>
+
 <body>
-    <div id="container">
-        <div id="container_logo">
-            <img src="assets/img/logo.png" alt="" id="logo">
-            <div id="container_logotext">
-                <p id="calendar_text">CALENDARIO</p>
-                <p id="university_text">UNIVERSITARIO</p>
-            </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid ">
+      <div class="row justify-content-center align-items-center background-t" >
+        <div class="col-xl-11 d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center justify-content-between">
+            <img src="assets/img/logo.png" alt="escudo_unimagdalena" class="logo-img">
+            <h1 class="logo"><a href="index.html">CALENDARIO <span id="unimag">UNIVERSITARIO</span> </a></h1>
+          </div>
+          
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar">
+            <a href="register.html" class="btn btn-outline-light btn-borde btn-lg">Registrarse</a>
+          </nav><!-- .navbar -->
         </div>
-        <div id="container_info">
-            <h1 id="tittle_text">Prepárate para 
-                <br><span>el futuro.</span></h1>
-            <p id="subtittle_text">¡Mantén todo bajo control en tu vida triste
-                <br><span>con nuestro calendario estudiantil!</span></p>
-            <div id="container_enter">
-                <a  class="btn" id="btn_ingresar" href="ingresar.html">Ingresar</a>
-                <p id="register_text"><a href="registrar.html">¿No tienes cuenta? Regístrate</a></p>
-            </div>
-        </div>
+      </div>
     </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Mantén todo bajo control</h2>
+                <p class="animate__animated animate__fadeIn">Organiza tu tiempo y actividades académicas y extracurriculares con nuestro calendario estudiantil. Maximiza tu experiencia universitaria y alcanza tus metas con éxito.</p>
+                <a href="login.html" class="btn btn-outline-light animate__animated animate__fadeIn btn-borde btn-lg">Ingresar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeIn">No te pierdas de nada</h2>
+                <p class="animate__animated animate__fadeIn">Agrega eventos importantes en tu universidad a tu calendario estudiantil para no perderte nada. Deportes, cultura, recreación y más. Planifica tu tiempo de manera efectiva.</p>
+                <a href="login.html" class="btn btn-outline-light animate__animated animate__fadeIn btn-borde btn-lg">Ingresar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Planifica tu tiempo académico</h2>
+                <p class="animate__animated animate__fadeIn">Programa tus tareas, proyectos y exámenes académicos para cumplir con todas tus obligaciones. Con nuestro calendario estudiantil, maximiza tu rendimiento académico.</p>
+                <a href="login.html" class="btn btn-outline-light animate__animated animate__fadeIn btn-borde btn-lg">Ingresar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/4.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Explora eventos extracurriculares</h2>
+                <p class="animate__animated animate__fadeIn">Mira los eventos sociales, culturales y de entretenimiento que se ofrecen en tu universidad y agrega aquellos que sean de tu interés en tu calendario estudiantil. Maximiza tu tiempo y disfruta al máximo de tu experiencia universitaria.</p>
+                <a href="login.html" class="btn btn-outline-light animate__animated animate__fadeIn btn-borde btn-lg">Ingresar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/5.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Maximiza tu experiencia universitaria</h2>
+                <p class="animate__animated animate__fadeIn">Organiza tus actividades académicas y extracurriculares con nuestro calendario estudiantil y disfruta al máximo de tu experiencia universitaria. ¡Alcanza tus metas y éxito!</p>
+                <a href="login.html" class="btn btn-outline-light animate__animated animate__fadeIn btn-borde btn-lg">Ingresar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
